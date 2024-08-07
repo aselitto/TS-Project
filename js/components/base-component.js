@@ -1,3 +1,4 @@
+// Component Base Class
 export class Component {
     constructor(templateId, hostElementId, insertAtStart, newElementId) {
         this.templateElement = document.getElementById(templateId);

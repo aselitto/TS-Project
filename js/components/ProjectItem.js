@@ -6,6 +6,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 import { Component } from './base-component.js';
 import { autobind } from '../util/autobind.js';
+// ProjectItem Class
 export class ProjectItem extends Component {
     get persons() {
         if (this.project.people === 1) {

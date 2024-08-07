@@ -9,6 +9,7 @@ import { ProjectStatus } from '../models/project.js';
 import { autobind } from '../util/autobind.js';
 import { projectState } from '../state/project-state.js';
 import { ProjectItem } from './ProjectItem.js';
+// ProjectList Class
 export class ProjectList extends Component {
     constructor(type) {
         super('project-list', 'app', false, `${type}-projects`);

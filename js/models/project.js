@@ -1,3 +1,4 @@
+// Project Type
 export var ProjectStatus;
 (function (ProjectStatus) {
     ProjectStatus[ProjectStatus["Active"] = 0] = "Active";
